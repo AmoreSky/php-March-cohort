@@ -5,11 +5,11 @@ $grade = 'H';
 //     echo 'You did great';
 // } elseif($grade == 'B'){
 //     echo 'You did good';
-// } elseif($grade = 'C'){
+// } elseif($grade == 'C'){
 //     echo 'You did okay';
-// } elseif($grade = 'D'){
+// } elseif($grade == 'D'){
 //     echo 'You did alright';
-// } elseif($grade = 'E'){
+// } elseif($grade == 'E'){
 //     echo 'You did poorly';
 // }elseif($grade == 'F'){
 //     echo 'You did badly';

@@ -1,25 +1,28 @@
 <?php 
-    $name = 'Tonia';
-    $_name = 'Ademola';
+ session_start();
+    // $name = 'Tonia';
+    // $_name = 'Ademola';
     
-    $age = 20;
-    $quantity = 5;
+    // $age = 20;
+    // $quantity = 5;
 
-    $price = 3.15;
+    // $price = 3.15;
 
-    $isUser = false;
+    // $isUser = false;
 
 
-    $result = "I am {$name} and I am {$age} years old";
+    // $result = "I am {$name} and I am {$age} years old";
 
-    $counter = 0;
+    // $counter = 0;
 
-    $counter++;
+    // $counter++;
 
-    // $counter = $counter++;
+    // // $counter = $counter++;
 
     
 
-    echo $counter;
+    // echo $counter;
+
+    echo "Welcome, {$_SESSION['username']} hope you enjoy using our site";
 
 ?>
